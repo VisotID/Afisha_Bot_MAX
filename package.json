@@ -1,0 +1,22 @@
+{
+  "name": "max-afisha-bot",
+  "version": "1.0.0",
+  "description": "Бот-афиша кинотеатров для мессенджера MAX",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "smoke": "node src/smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@maxhub/max-bot-api": "^0.3.1",
+    "dotenv": "^18.0.1"
+  }
+}
